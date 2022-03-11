@@ -27,13 +27,15 @@ answers = [
   'Перспективы не очень хорошие',
   'Весьма сомнительно'
 ]
-greeting = [
+greetings = [
   'Привет, дорогой друг. Отвечаю на твой вопрос...',
   'Кто вопрошает, тот получит ответ:',
   'Здравствуй, смертный. Сегодня для тебя такой ответ:'
 ]
-puts "Input your question...\n"
+puts "Input your question..."
+puts
 gets.chomp
-puts "#{greeting.sample}\n\n"
+puts "#{greeting.sample}"
+puts
 sleep 2
 puts answers.sample
