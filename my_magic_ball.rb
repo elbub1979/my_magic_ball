@@ -32,10 +32,10 @@ greetings = [
   'Кто вопрошает, тот получит ответ:',
   'Здравствуй, смертный. Сегодня для тебя такой ответ:'
 ]
-puts "Input your question..."
+puts 'Input your question...'
 puts
 gets.chomp
-puts "#{greeting.sample}"
+puts greetings.sample
 puts
 sleep 2
 puts answers.sample
