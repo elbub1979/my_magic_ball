@@ -8,5 +8,5 @@
 
 Для запуска программы наберите команду: 
 ``` 
-~/ruby my_magic_ball.rb
+ruby my_magic_ball.rb
 ```
